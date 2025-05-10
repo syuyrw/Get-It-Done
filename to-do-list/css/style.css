@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+header {
+    background-color: #778da9;
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px;
+    background-color: #415A77;
+}
+
+.to-do-box {
+    background-color: #1B263B;
+    color: white;
+    margin: 0;
+    padding: 10px 30px;
+    height: 45vh;
+    font-size: 35px;
+}
+
+.done-box {
+    background-color: #0D1B2A;
+    margin: 0;
+    padding: 10px 30px;
+    color: white;
+    min-height: 45vh;
+    font-size: 35px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do App</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Get It Done</h1>
+        </header>
+        <div class="top-bar">
+            <input type="text" id="new-item" placeholder="Enter a task" />
+            <button onclick="getNewItem()">Add Item</button>
+            <button onclick="removeAllBoxes()">Reset List</button>
+            <button onclick="uncheckAll()">Uncheck All</button>
+            <button onclick="checkAll()">Check All</button>
+        </div>
+
+        <div class="to-do-box">
+            <h2>To-Do</h2>
+            <div id="to-do"></div>
+        </div>
+
+        <div class="done-box">
+            <h2>Done</h2>
+            <div id="done"></div>
+        </div>
+
+        <script src="js/main.js" defer></script>
+    </body>
+</html>

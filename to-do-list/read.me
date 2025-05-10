@@ -1,0 +1,29 @@
+# Overview
+
+I started this project to help me get more familiar with Javascript, and specifically event handlers. I thought that a to-do list would be a great project for this because it has a user interface, and functions are run when buttons are clicked.
+
+I wanted to make this more complicated than just making a program that would allow me to check boxes. I added the ability to enter new tasks, reset the list, uncheck all boxes, and checking all boxes. In order for these buttons to work, I had to write functions to handle each thing. I have a function that takes user input, creates a new checkbox, and adds it to the to-do section. I also wrote a function that detects when the checkbox is checked, and moved the box to the done section. I also had functions for checking all, unchecking all, and resetting the list.
+
+I wrote this software because I am trying to improve my life. This comes into play in two ways. In my process of improving myself, to-do lists have been very important to me. They have helped me stay on top of tasks I need to complete. I also am trying to finally get better at coding. I want to be a software developer, and I know the best way to get better is to create programs.
+
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+
+[Software Demo Video](https://youtu.be/bXwrSQH-Ugw)
+
+# Development Environment
+
+I developed this program in VSCode using Live Server
+
+I used Javascript, HTML, and CSS.
+
+# Useful Websites
+
+- [Coolers](coolors.co)
+- [Stack Overflow](http://stackoverflow.com)
+- [W3 Schools](https://www.w3schools.com/)
+
+# Future Work
+
+- Item 1: I want to provide more styling for the button section
+- Item 2: I want to make it more mobile friendly
+- Item 3: Make it so the list can be saved to a database
